@@ -27,9 +27,9 @@
                 <li>
                     <a href="#"><i class="fa fa-group"></i> <span class="nav-label">Industri</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="#">Industri Berdaftar</a></li>
-                        <li><a href="#">Senarai Industri</a></li>
-                        <li><a href="#">Senarai Bidang</a></li>
+                        <li><a href="/industri-berdaftar" class="{{ Request::is('industri-berdaftar') ? "active" : "" }}">Industri Berdaftar</a></li>
+                        <li><a href="/senarai-industri" class="{{ Request::is('senarai-industri') ? "active" : "" }}">Senarai Industri</a></li>
+                        <li><a href="/senarai-bidang" class="{{ Request::is('senarai-bidang') ? "active" : "" }}">Senarai Bidang</a></li>
                     </ul>
                 </li>
                 <li>

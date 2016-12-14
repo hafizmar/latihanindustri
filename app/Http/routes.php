@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('pages.welcome');
 });
+
+//Industri
+Route::resource('industri', 'IndustriController');

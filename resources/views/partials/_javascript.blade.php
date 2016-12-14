@@ -7,3 +7,5 @@
 <!-- Custom and plugin javascript -->
 <script src="{{URL::to('js/inspinia.js')}}"></script>
 <script src="{{URL::to('js/plugins/pace/pace.min.js')}}"></script>
+
+@yield('scripts')

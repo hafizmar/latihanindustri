@@ -26,11 +26,10 @@
         </div>
     </div>
 
-    <div class="wrapper wrapper-content">
-      <div class="middle-box text-center animated fadeInRightBig">
+    <div class="wrapper wrapper-content  animated fadeInRight">
         @yield('content')
-      </div>
     </div>
+
     @include('partials._footer')
 
 </div>
